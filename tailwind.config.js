@@ -12,6 +12,7 @@ export default {
         bonheur: ['"Bonheur Royale"', 'cursive'],
         ballet: ['"Ballet"', 'cursive'],
         ebgaramond: ['"EB Garamond"', 'serif'],
+        imperial: ['"Imperial Script"', 'serif']
       },
     },
   },

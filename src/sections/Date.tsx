@@ -13,14 +13,6 @@ export const Date = () => {
       </div>
       <div className="font-cinzel text-center">
         <div className="text-2xl">7 de febrero de 2026</div>
-        <div className="text-lg mt-2">
-          <span className="font-bold">Misa:</span>{" "}
-          <span className="font-normal">4:00 PM</span>
-        </div>
-        <div className="text-lg">
-          <span className="font-bold">Salón:</span>{" "}
-          <span className="font-normal">6:30 PM</span>
-        </div>
       </div>
     </section>
   );

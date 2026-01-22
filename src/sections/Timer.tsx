@@ -30,7 +30,7 @@ export const Timer = () => {
     <section className="min-h-screen flex flex-col justify-center p-4">
       <div className="flex flex-col gap-8">
         <h3 className="font-cinzel text-3xl p-4 border border-orange-950 text-center">
-          Danna Montserrat
+          Danna Monserrat
         </h3>
         <p className="transform-cpu translate-y-[-45px] text-center font-cinzel bg-orange-50 w-fit mx-auto px-4">Los espero en</p>
         <div className="flex flex-row justify-center font-ebgaramond gap-4">

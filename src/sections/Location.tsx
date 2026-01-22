@@ -4,9 +4,8 @@ export const Location = () => {
       <div className="p-6 flex flex-col gap-6">
         <h3 className="font-ballet text-4xl text-center">Ubicación</h3>
         <p className="font-ebgaramond text-lg">
-          Con la bendición de Dios y rodeada del amor de mi familia, quisiera
-          que me acompañe en la celebración de mis quince años. Será un honor
-          contar con su presencia.
+          Hay momentos que marcan el inicio de una nueva etapa y merecen ser celebrados con quienes forman parte de nuestra historia.
+          Será un honor contar con su presencia para acompañarme en la celebración de mis XV años, una velada llena de significado y gratitud.
         </p>
         <div className="grid gap-6">
           <div className="font-ebgaramond text-lg">
