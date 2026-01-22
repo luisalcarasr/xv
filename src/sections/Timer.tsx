@@ -7,7 +7,7 @@ export const Timer = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const targetDate = new Date("2025-01-16T16:30:00-06:00"); // Hora estándar del centro (CST)
+    const targetDate = new Date("2026-02-07T16:00:00-06:00"); // 7 de febrero de 2026 4:00 PM (CST)
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -30,9 +30,9 @@ export const Timer = () => {
     <section className="min-h-screen flex flex-col justify-center p-4">
       <div className="flex flex-col gap-8">
         <h3 className="font-cinzel text-3xl p-4 border border-orange-950 text-center">
-          Adrian & Cristina
+          Danna Montserrat
         </h3>
-        <p className="transform-cpu translate-y-[-45px] text-center font-cinzel bg-orange-50 w-fit mx-auto px-4">Los esperamos en</p>
+        <p className="transform-cpu translate-y-[-45px] text-center font-cinzel bg-orange-50 w-fit mx-auto px-4">Los espero en</p>
         <div className="flex flex-row justify-center font-ebgaramond gap-4">
           <div className="flex flex-col text-center border-r border-r-orange-950 pr-4">
             <span className="text-3xl">{days}</span>
