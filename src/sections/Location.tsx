@@ -12,14 +12,14 @@ export const Location = () => {
             <h4 className="font-bold">Parroquia Santa María Asunta (Misa)</h4>
             <p>Villas de Ntra. Sra. de la Asunción, 20126 Aguascalientes, Ags.</p>
             <div>
-              <a
-                className="flex justify-center cursor-pointer mt-2"
-                href="https://maps.app.goo.gl/8AHD8j8LHXm93rrv9"
+              <button
+                className="flex justify-center cursor-pointer mt-4 w-full"
+                onClick={() => window.open("https://maps.app.goo.gl/8AHD8j8LHXm93rrv9")}
               >
                 <div className="bg-orange-100 p-2 w-full text-center rounded text-xl font-ebgaramond">
                   Ver en Google Maps
                 </div>
-              </a>
+              </button>
             </div>
           </div>
 
@@ -27,14 +27,14 @@ export const Location = () => {
             <h4 className="font-bold">Jardín Los Robles Eventos (Salón)</h4>
             <p>Roble 225, Jardines de la Cruz, 20250 Aguascalientes, Ags.</p>
             <div>
-              <a
-                className="flex justify-center cursor-pointer mt-2"
-                href="https://maps.app.goo.gl/mg4CwjxpubaTDRsz8"
+              <button
+                className="flex justify-center cursor-pointer mt-4 w-full"
+                onClick={() => window.open("https://maps.app.goo.gl/mg4CwjxpubaTDRsz8")}
               >
                 <div className="bg-orange-100 p-2 w-full text-center rounded text-xl font-ebgaramond">
                   Ver en Google Maps
                 </div>
-              </a>
+              </button>
             </div>
           </div>
         </div>
